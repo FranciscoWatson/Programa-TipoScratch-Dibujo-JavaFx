@@ -1,0 +1,128 @@
+/*linechart*/
+.chart {
+    -fx-padding: 10px;
+    -fx-background-image: url("fondo.jpg");
+    -fx-legend-visible: false;
+    -fx-max-height:1000;
+    -fx-max-width: 1000;
+    -fx-min-height: 1000;
+    -fx-min-width: 1000;
+}
+
+.chart-content {
+    -fx-padding: 30px;
+}
+
+.chart-title {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 1.6em;
+}
+
+.axis-label {
+    -fx-text-fill: #ffffff;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke:#505050;
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: #505050;
+}
+
+.chart-alternative-row-fill {
+    -fx-fill:transparent;
+    -fx-stroke: transparent;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 4px;
+    -fx-effect: null;
+}
+.titulo {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 18px;
+    -fx-border-color:black;
+    -fx-text-fill:white;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-color: rgb(98, 3, 252);
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 20 20 20 20;
+    -fx-alignment:center;
+    -fx-max-width:1000;
+}
+.botones {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 14px;
+    -fx-border-color:black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 20 20 20 20;
+}
+.botonSalir {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 14px;
+    -fx-border-color:black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-color: rgb(190, 60, 60);
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 20 20 20 20;
+}
+
+.botonLimpiar {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 14px;
+    -fx-border-color:black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-color: rgb(250, 191, 2);
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 20 20 20 20;
+}
+
+.botonEjecutar {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 14px;
+    -fx-border-color:black;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-color: rgb(1, 152, 14);
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 20 20 20 20;
+}
+.panel {
+    -fx-border-color:black;
+    -fx-border-width: 1;
+    -fx-background-color: rgb(231, 231, 231);
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+.scroll-pane {
+    -fx-border-color:black;
+    -fx-border-width: 1;
+    -fx-background-color: rgb(231, 231, 231);
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+.tituloPrincipal {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 25 px;
+    -fx-text-fill: #fd874b;
+}
+.fondo {
+    -fx-background-color: rgb(3, 105, 159);
+}
+.error {
+    -fx-font-family: "Berlin Sans FB";
+    -fx-font-size: 18px;
+    -fx-background-color: rgb(190, 60, 60);
+    -fx-text-fill: #ffffff;
+}
